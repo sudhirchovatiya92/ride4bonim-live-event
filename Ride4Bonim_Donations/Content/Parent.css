@@ -261,6 +261,67 @@ footer, header, hgroup, menu, nav, section {
 }
 
 /*================== Header START ===================*/
+
+.sf-menu {
+    float: none;
+}
+
+    .sf-menu, .sf-menu * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        .sf-menu li {
+            display: block;
+            float: left;
+            padding: 0;
+            margin: 0 25px 0 0;
+        }
+
+        .sf-menu > li {
+            float: left;
+        }
+
+        .sf-menu li {
+            position: relative;
+        }
+
+        .sf-menu, .sf-menu * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+            .sf-menu a {
+                color: #fff;
+            }
+
+            .sf-menu a {
+                font-family: 'DINPro-Bold';
+                font-size: 18px;
+                line-height: 22px;
+                font-weight: normal;
+                text-transform: uppercase;
+                color: #fff;
+                letter-spacing: .02em;
+                padding: 0;
+                text-decoration: none;
+                transition: all 300ms ease-in-out;
+            }
+
+            .sf-menu a {
+                display: block;
+            }
+
+            .sf-menu li:nth-child(4) {
+                margin-right: 480px;
+            }
+
+.header-bottom-block > .container-fluid {
+    padding: 0px 91px 0px 100px;
+}
+
 #header {
     padding: 0;
     margin: 0;
@@ -748,6 +809,11 @@ footer, header, hgroup, menu, nav, section {
             }
 
 /*================== Footer START ===================*/
+
+#new-footer > .container-fluid {
+    padding: 0px 70px 0px 70px;
+}
+
 #footer {
     padding: 5px 0 15px 0;
     margin: 2px 0 0 0;
@@ -3760,6 +3826,8 @@ footer, header, hgroup, menu, nav, section {
 
 /*================== Footer Start ===================*/
 #new-footer {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
     padding: 40px 0 30px 0;
     margin: 0;
     background: url(../images/new-images/footer-bg.jpg) no-repeat center top;
@@ -4367,6 +4435,7 @@ ______________________________________________*/
         width: 590px;
     }
 }
+
 
 @media screen and (max-width:1300px) {
     .container {
@@ -5251,6 +5320,7 @@ ______________________________________________*/
 }
 
 @media screen and (max-width:610px) {
+
     .container {
         width: 500px;
     }
