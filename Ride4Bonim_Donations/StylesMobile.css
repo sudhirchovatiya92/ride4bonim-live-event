@@ -1,0 +1,196 @@
+@font-face {
+    font-family: DinPro;
+    src: url(Fonts/DINPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: DinProBold;
+    src: url(Fonts/DINPro-Bold.ttf);
+}
+
+body {
+    background: #f0f0f0;
+    font-family: DinPro;
+}
+
+.targetpercentcontainer {
+    margin: 10px -35px -35px -35px;
+    background: #d5d6da;
+    height: 270px;
+}
+
+.progg {
+    padding: 12px;
+    width: 165px;
+    height: 165px;
+    background-image: url('Images/prog_back4.png');
+    background-size: 185px 185px;
+    background-position:center;
+}
+
+.targetpercent {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 3px;
+    z-index: 10;
+    width: 155px;
+    text-align: center;
+    font-family: DinProBold;
+    color: #555;
+    font-size: 2.5rem;
+}
+
+.btn-menu {
+    font-size: .9em;
+    font-family: DinProBold;
+    border-radius: 50px !important;
+    background: #fff;
+    color: #555;
+    height: 40px;
+    padding: 0px 20px;
+    margin: 5px;
+}
+
+.whitelabel {
+    margin-top:25px;
+    height: 30px;
+    color: #fff;
+    font-family: DinProBold;
+    font-size: 1rem;
+}
+
+.card {
+    min-width: 240px;
+}
+
+.targetlabel {
+    height: 30px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.targetval {
+    margin-left: 20px;
+    color: #111;
+    font-family: DinProBold;
+    font-size: 1.25rem;
+}
+
+.totalAmount {
+    color: #333;
+    font-family: DinProBold;
+    font-weight: 300;
+}
+
+.totalDisplay {
+    height: 70px;
+    color: #eb212e;
+    font-family: DinProBold;
+    font-size: 2.5rem;
+}
+
+.deco-none {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.deco-none:link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.deco-none:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.black_mobile_gap {
+    min-width: 100px;
+    margin: 10px 10px;
+}
+
+.blackmenu {
+    color: #fff;
+    font-size: 1.0rem;
+    font-family: DinProBold;
+    padding: 10px 0;
+    background: #000;
+}
+
+.menubar {
+    color:#fff;
+    font-size: 1.05rem;
+    font-family:DinPro;
+    padding: 10px 0;
+    background: #eb212e;
+}
+
+.bold-title {
+    font-family: DinProBold;
+    font-size: 1.4rem;
+}
+
+.carrouselcontainer {
+    text-align: center;
+    margin-top: 15px;
+    background: #eb212e;
+    height: 170px;
+}
+
+.carousel {
+    padding: 0 10px 0 10px;
+    text-align: center;
+    width: 100%;
+    height: 170px;
+}
+
+.carousel-inner{
+  width:65%;
+}
+
+.donationcard {
+    background: #eb212e;
+    height: 170px;
+}
+
+.donationcardtitle {
+    text-align:left;
+    color: #fff;
+    font-size: 2rem;
+    font-family: DinProBold;
+}
+
+.donationcardcontent {
+    text-align: left;
+    color: #fff;
+    font-size: 0.9rem;
+    font-family: DinPro;
+}
+
+.navbar-default {
+  margin: 0 -15px;
+    background: #000 !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav_logo {
+  width: 100px;
+}
+
+li {
+  margin: 10px 0;
+  color: #fff;
+  font-family: DinProBold;
+}
+
+.maintitle {
+  padding: 10px;
+}
+
+.maintitle {
+  line-height: 1.25;
+}
