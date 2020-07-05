@@ -68,13 +68,14 @@
 </head>
 <body class="container-fluid">
    
-
+    <div class="three_boxes">
     <div class="row justify-content-center text-center" style="margin-top:20px;">
-        <div class="card w-50 col-lg-2 col-sm-12 col-md-10">
+        <div class="col-lg-3">
+            <div class="card">
           <div class="card-body">
               <h5 class="card-title totalAmount">Total Amount Raised</h5>
               <div id="amountRaised" class="totalDisplay">£0.0</div>
-              <hr style="margin:70px -35px 10px -35px"/>
+              <hr style="margin:70px -20px 10px -20px"/>
               <div class="targetlabel">OUR TARGET <span id="targetValue" class="targetval">£0.0</span></div>
               <div class="targetpercentcontainer" style="overflow:auto">
 
@@ -84,12 +85,15 @@
                   <div class="whitelabel">OF TARGET RAISED</div>
 
               </div>
+           </div>
           </div>
         </div>
 
-     <div id='wowza_player'></div><div id='tawk_5efe084b9e5f69442291bf37'></div>
+     <div class="col-lg-6" id='wowza_player'></div>
+     <div class="col-lg-3" id='tawk_5efe084b9e5f69442291bf37'></div>
 
     </div>
+ </div>
 
 
   <!--Start of Tawk.to Script-->
